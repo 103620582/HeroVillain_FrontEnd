@@ -1,0 +1,21 @@
+<body>
+
+<p>
+{{ game.gameName }}
+</p>
+
+<h2> HEROES </h2>
+<div class="tupacHero">{{ hero.HeroName }}<p>Dice: {{ hero.DiceMin }} - {{ hero.DiceMax }}<p>Lives Left: {{ hero.UsesLeft }}</div>
+
+
+
+
+<!-- ------------------------------------- -->
+<h2> VILLAINS </h2>
+<div class="trumpVillain">{{ villain.VillainName }}<p>{{ villain.HitPoints }}</div>
+
+
+<app-hero></app-hero>
+<app-villain></app-villain>
+
+</body>

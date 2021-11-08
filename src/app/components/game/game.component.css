@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.tupacHero {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.trumpVillain {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
