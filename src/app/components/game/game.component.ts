@@ -3,7 +3,6 @@ import { Game } from '../../models/game';
 import { Hero } from '../../models/hero';
 import { Villain } from '../../models/villain';
 
-
 @Component({
   selector: 'app-game',
   templateUrl: './game.component.html',

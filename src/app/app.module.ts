@@ -9,16 +9,20 @@ import { HelloComponent } from './hello.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { VillainComponent } from './components/villain/villain.component';
 import { GameComponent } from './components/game/game.component';
+import { AllHeroesComponent } from './components/all-heroes/all-heroes.component';
 import { Game } from './models/game';
+import { HttpClient } from '@angular/common/http';
+
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule 
+  imports:      [ BrowserModule, FormsModule, HttpClientModule 
                 ],
   declarations: [ AppComponent, 
                   HelloComponent, 
                   HeroComponent, 
                   VillainComponent,
-                  GameComponent 
+                  GameComponent,
+                  AllHeroesComponent 
                 ],
   bootstrap:    [ AppComponent 
                 ]

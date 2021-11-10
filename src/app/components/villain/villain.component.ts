@@ -12,6 +12,7 @@ export class VillainComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
